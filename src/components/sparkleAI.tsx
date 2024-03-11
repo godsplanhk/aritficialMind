@@ -5,8 +5,7 @@ import Image from "next/image";
 export function AMSparkle() {
   return (
     <div className="h-screen w-full bg-white flex flex-col items-center justify-center overflow-hidden rounded-md border-b">
-        <Image src="/logo.png
-        " alt="alt" width={200} height={200} />
+        <Image src="/logo.png" alt="alt" width={200} height={200} />
       <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-t from-blue-900 to-blue-200 hover:bg-gradient-to-r  text-black text-center">
         Artificial Minds
       </h1>
