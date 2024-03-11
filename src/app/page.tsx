@@ -23,7 +23,7 @@ export default function Landing(){
   )
 }
 
-export function Intro() {
+function Intro() {
   return (
     <div className="h-screen w-full rounded-md bg-white relative flex flex-col items-center justify-center antialiased">
       <div className="max-w-2xl mx-auto p-4">
